@@ -4,5 +4,7 @@
   <description>Rewrite-configuration and management</description>
   <allow>
     <principal>role:system.admin</principal>
+    <principal>role:rewrite-app-editor</principal>
   </allow>
 </tool>
+

@@ -1,5 +1,6 @@
 <service>
   <allow>
     <principal>role:system.admin</principal>
+    <principal>role:rewrite-app-editor</principal>
   </allow>
 </service>
