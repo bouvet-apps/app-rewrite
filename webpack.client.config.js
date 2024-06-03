@@ -94,7 +94,7 @@ const createDefaultCssLoaders = () =>
 const createCssPlugin = () =>
     (
         new MiniCssExtractPlugin({
-            filename: '/css/main.css',
+            filename: 'css/main.css',
             chunkFilename: '[id].css',
         })
     );

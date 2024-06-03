@@ -57,7 +57,7 @@ test {
 
 node {
     download = true
-    version = '14.15.0'
+    version = '16.16.0'
 }
 
 task npmInstallForce( type: NpmTask ) {
